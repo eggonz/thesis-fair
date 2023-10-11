@@ -1,0 +1,29 @@
+/* courses list+grades */
+
+.msc-courses-list li {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto max-content;
+  align-items: end;
+  margin-block-start: 0.2em;
+  min-width: 30em;
+}
+
+.msc-courses-list li > .msc-grade {
+  min-width: 1em;
+  text-align: right;
+}
+
+.msc-courses-list li > .msc-course {
+  position: relative;
+  overflow: hidden;
+}
+
+.msc-course .leaders::after {
+  position: absolute;
+  padding-left: .2em;
+  content: " . . . . . . . . . . . . . . . . . . . "
+      ". . . . . . . . . . . . . . . . . . . . . . . "
+      ". . . . . . . . . . . . . . . . . . . . . . . ";
+  text-align: right;
+}

@@ -6,6 +6,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="min-h-screen flex flex-col bg-gray-100 items-center">
@@ -65,52 +66,161 @@
                     </div>
                 </div>
 
-                <div class="anchor pt-6">
-                    <h2 class="text-2xl">Courses @ MSc AI UvA</h2>
-                    <div class="flex flex-row justify-start gap-8">
-                        <div>
-                            <p><b>Mandatory courses:</b></p>
-                            <ul type="1" class="clear">
-                                <li>Machine Learning 1</li>
-                                <li>Computer Vision 1</li>
-                                <li>Deep Learning 1</li>
-                                <li>Natural Language Processing 1</li>
-                                <li>Fairness, Accountability, Confidentiality and Transparency</li>
-                                <li>Information Retrieval 1</li>
-                                <li>Knowledge Representation and Reasoning</li>
-                            </ul>
+                <div class="flex flex-row justify-between gap-x-32 gap-y-8 flex-wrap">
+                    <div class="anchor pt-6">
+                        <h2 class="text-2xl">Courses @ MSc AI UvA</h2>
+                        <div class="flex flex-col justify-start gap-8">
+                            <div>
+                                <p>
+                                    <span class="flex flex-row justify-between">
+                                        <b>Mandatory courses</b>
+                                        <b>Grades</b>
+                                    </span>
+                                </p>
+                                <ul type="1" class="clear msc-courses-list">
+                                    <!--https://css-tricks.com/a-perfect-table-of-contents-with-html-css/-->
+                                    <li>
+                                        <span class="msc-course">Machine Learning 1<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 9</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Computer Vision 1<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 9.5</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Deep Learning 1<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 8</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Natural Language Processing 1<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 8</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Fairness, Accountability, Confidentiality and Transparency<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 7.5</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Information Retrieval 1<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 9.5</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Knowledge Representation and Reasoning<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 8.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p><b>Elective courses chosen</b></p>
+                                <ul type="1" class="clear msc-courses-list">
+                                    <li>
+                                        <span class="msc-course">Computer Vision 2<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 8.5</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Deep Learning 2<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 8.5</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Multimedia Analytics<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 7</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Reinforcement Learning<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; TBD</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">AI for Medical Imaging<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; TBD</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul type="1" class="clear msc-courses-list">
+                                    <li>
+                                        <span class="msc-course">GPA<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 8.4</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div>
-                            <p><b>Elective courses chosen:</b></p>
-                            <ul type="1" class="clear">
-                                <li>Computer Vision 2</li>
-                                <li>Deep Learning 2</li>
-                                <li>Multimedia Analytics</li>
-                                <li>Reinforcement Learning</li>
-                                <li>AI for Medical Imaging</li>
-                            </ul>
+                    </div>
+                    <div class="anchor pt-6">
+                        <h2 class="text-2xl">Future Interests</h2>
+                        <ul class="clear">
+                            <li>Computer Vision</li>
+                            <li>Reinforcement Learning</li>
+                            <li>Synthesis and simulation</li>
+                            <li>3D space and geometry</li>
+                            <li>VR/AR/XR</li>
+                            <li>Robotics</li>
+                            <li>Game Development</li>
+                        </ul>
+                    </div>
+                    <div class="anchor pt-6">
+                        <h2 class="text-2xl">Relevant skills</h2>
+                        <ul class="clear">
+                            <li>Team work and communication</li>
+                            <li>Project management and organization</li>
+                            <li>Project documentation and interface</li>
+                            <li>Programming and clear code</li>
+                            <li>Research and problem solving</li>
+                        </ul>
+                    </div>
+                    <div class="anchor pt-6">
+                        <h2 class="text-2xl">Courses @ BSc Physics + Electronics EHU</h2>
+                        <div class="flex flex-col justify-start gap-8">
+                            <div>
+                                <p><b>Relevant courses</b></p>
+                                <ul type="1" class="clear msc-courses-list">
+                                    <!--https://css-tricks.com/a-perfect-table-of-contents-with-html-css/-->
+                                    <li>
+                                        <span class="msc-course">Linear algebra and Geometry</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Calculus, Vector analysis and Complex analysis</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Mathematical Methods</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">General Physics, Mechanics and Waves</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Electromagnetism, Optics</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Signals, Systems and Control</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Digital and Analogue electronics</span>
+                                    </li>
+                                    <li>
+                                        <span class="msc-course">Company and Projects</span>
+                                    </li>
+                                    <li>
+                                        ...
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul type="1" class="clear msc-courses-list">
+                                    <li>
+                                        <span class="msc-course">GPA<span class="leaders" aria-hidden="true"></span></span>
+                                        <span class="msc-grade">&thinsp; 8.5</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p><b>Thesis Electronic Eng:<br />&emsp; Deep Learning for Sign Language Recognition</b></p>
+                                <!--TODO <p>[desc]</p>-->
+                            </div>
+                            <div>
+                                <p><b>Thesis Physics:<br />&emsp; Cosmological N-body simulations</b></p>
+                                <!--TODO <p>[desc]</p>-->
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div id="media" class="anchor pt-6">
-                    <h2 class="text-2xl">Future Interests</h2>
-                    <ul class="clear">
-                        <li>Computer Vision</li>
-                        <li>Reinforcement Learning</li>
-                        <li>Synthesis and simulation</li>
-                        <li>3D space and geometry</li>
-                        <li>VR/AR/XR</li>
-                        <li>Robotics</li>
-                        <li>Game Development</li>
-                    </ul>
-                </div>
-                <!--<div class="anchor pt-6">
-                    <h2 class="text-2xl">Relevant skills</h2>
-                    <ul class="clear">
-                        <li>Team work</li>
-                        <li>Project management and organization</li>
-                    </ul>
-                </div>-->
                 <div class="h-16"></div>
             </div>
             <!-- Footer -->
