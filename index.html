@@ -81,7 +81,7 @@
                     <div class="anchor pt-6 content-block">
                         <h2 class="text-2xl">Courses @ MSc AI UvA</h2>
                         <div class="flex flex-col justify-start gap-8">
-                            <div>
+                            <div class="courses-block">
                                 <p>
                                     <span class="flex flex-row justify-between">
                                         <b>Mandatory courses</b>
@@ -177,11 +177,16 @@
                             <li>Research and problem solving</li>
                         </ul>
                     </div>
-                    <div class="anchor pt-6 content-block">
+                    <div class="anchor pt-6 content-block ">
                         <h2 class="text-2xl">Courses @ BSc Physics + Electronics EHU</h2>
-                        <div class="flex flex-col justify-start gap-8">
-                            <div>
-                                <p><b>Relevant courses</b></p>
+                        <div class="flex flex-row justify-start gap-y-8 gap-x-16 flex-wrap">
+                            <div class="courses-block">
+                                <p>
+                                    <span class="flex flex-row justify-between">
+                                        <b>Relevant courses</b>
+                                        <b>Grades</b>
+                                    </span>
+                                </p>
                                 <ul type="1" class="clear msc-courses-list">
                                     <!--https://css-tricks.com/a-perfect-table-of-contents-with-html-css/-->
                                     <li>
@@ -214,17 +219,16 @@
                                     <li>
                                         ...
                                     </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <ul type="1" class="clear msc-courses-list">
+                                    <li>
+                                        &thinsp;
+                                    </li>
                                     <li>
                                         <span class="msc-course">GPA<span class="leaders" aria-hidden="true"></span></span>
                                         <span class="msc-grade">&thinsp; 8.5</span>
                                     </li>
                                 </ul>
                             </div>
-                            <div>
+                            <div class="courses-block">
                                 <p><b>Thesis Electronic Eng:<br />&emsp; Deep Learning for Sign Language Recognition</b></p>
                                 <p>
                                     I developed a simple DL model toolkit <a href="https://github.com/eggonz/deelemma" class="text-sky-600 hover:text-sky-300 focus:ring-2 focus:ring-sky-300 font-medium" target="_blank" rel="noopener noreferrer">DeeLeMMa</a> from scratch to see the insights of the process.
@@ -232,7 +236,7 @@
                                     I compared my results to another model with transfer learning and combined it with detection to build a real-time demo.
                                 </p>
                             </div>
-                            <div>
+                            <div class="courses-block">
                                 <p><b>Thesis Physics:<br />&emsp; Cosmological N-body simulations</b></p>
                                 <p>
                                     I analyzed the methods and results used in the Millennium simulation, a cosmological N-body simulation of the evolution of the matter distribution in the universe.
