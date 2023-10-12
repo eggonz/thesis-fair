@@ -10,7 +10,7 @@
     grid-template-columns: auto max-content;
     align-items: end;
     margin-block-start: 0.2em;
-    width: 20.5em;
+    min-width: 20em;
 }
 
 .msc-courses-list li > .msc-grade {
@@ -30,4 +30,8 @@
         ". . . . . . . . . . . . . . . . . . . . . . . "
         ". . . . . . . . . . . . . . . . . . . . . . . ";
     text-align: right;
+}
+
+.content-block {
+    max-width: 23em;
 }
